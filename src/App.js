@@ -1,7 +1,10 @@
-import Body from './components/Body';
+import { BrowserRouter } from 'react-router-dom';
+import RootRouter from './Routes/RootRouter'
 function App() {
   return (
-      <Body/>
+      <BrowserRouter>
+       <RootRouter/>
+      </BrowserRouter>
   )
 }
 

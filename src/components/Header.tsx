@@ -1,4 +1,3 @@
-import React from 'react'
 const Header = () => {
   return (
     <div className='z-10 absolute px-16 py-10 bg-gradient-to-b from-black'>
